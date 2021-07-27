@@ -1,0 +1,1 @@
+Place the AWS PHP SDK (https://docs.aws.amazon.com/aws-sdk-php/v3/download/aws.zip) 3.173.22 files here.
