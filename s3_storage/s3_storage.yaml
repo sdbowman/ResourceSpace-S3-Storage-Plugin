@@ -1,0 +1,10 @@
+name: s3_storage
+title: Simple Storage Service (S3) Original Resource Storage
+desc: Store original and alternative resource files in object-based, Simple Storage Service storage.
+icon: far fa-object-group
+author: Steve D. Bowman
+version: 1.0
+config_url: /plugins/s3_storage/pages/setup.php
+default_priority: 001
+category: System
+disable_group_select: 1
