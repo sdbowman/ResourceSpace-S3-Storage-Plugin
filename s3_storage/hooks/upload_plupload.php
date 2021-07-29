@@ -55,6 +55,7 @@ function HookS3_storageUpload_pluploadUpload_log()
             <textarea id="upload_log" rows=<?php echo $s3_storage_log_height;?> cols=100 style="width: 100%; border: solid 1px;"><?php echo $lang['plupload_log_intro'] . nicedate(date('Y-m-d H:i'), true) . ')';?></textarea>
         </div>
     </div> <?php
+    return true;
     }
 
 
@@ -67,4 +68,5 @@ function HookS3_storageUpload_pluploadReplace_upload_log_text()
         resource_keys = [];
         }
     resource_keys.push(uploadresponse.id.replace( /^\D+/g, '')); <?php
+    return true;
     }
