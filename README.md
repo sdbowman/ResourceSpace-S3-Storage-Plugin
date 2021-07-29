@@ -31,7 +31,7 @@ Original Resource File S3 Storage Setup
   $storagedir = ‘’; // Full path to the ../filestore folder.
   $purge_temp_folder_age = x; // Time in days to clear the tmp folder.
   $exiftool_write = true; // Enable ExifTool metadata writing?
-  $exiftool_write_metadata = true; // Force Exiftool metadata writing?
+  $exiftool_write_metadata = true; // Force Exiftool metadata writing.
   $custompermshowfile = false;
 
 7. Verify S3 storage connectivity and settings by using the S3 Installation Check at Admin, System, S3 Installation Check (http://localhost/resourcespace/pages/admin/admin_system_s3.php). Resolve any lines reporting FAIL before uploading new resources or converting an existing filestore; otherwise, you may lose files.
